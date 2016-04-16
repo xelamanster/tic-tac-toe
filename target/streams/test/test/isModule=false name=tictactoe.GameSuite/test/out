@@ -1,0 +1,11 @@
+[info] GameSuite:
+[info] - whenXOutsideBoardThenRuntimeException
+[info] - whenYOutsideBoardThenRuntimeException
+[info] - whenOccupiedThenRuntimeException
+[info] - givenFirstTurnWhenNextPlayerThenX
+[info] - givenLastTurnWasXThenNextPlayerO
+[info] - whenPlayThenNoWinner
+[info] - whenPlayAndWholeHorizontalLineThenWinner
+[info] - whenPlayAndWholeVerticalLineThenWinner
+[info] - whenPlayAndWholeTopBottomDiagonalThenWinner
+[info] - whenPlayAndWholeBottomTopDiagonalThenWinner

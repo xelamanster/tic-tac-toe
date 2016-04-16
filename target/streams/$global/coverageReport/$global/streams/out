@@ -1,0 +1,11 @@
+[info] Waiting for measurement data to sync...
+[info] Reading scoverage instrumentation [D:\STUD\TestProjects\TDD\target\scala-2.11\scoverage-data\scoverage.coverage.xml]
+[info] Reading scoverage measurements...
+[info] Generating scoverage reports...
+[info] Written Cobertura report [D:\STUD\TestProjects\TDD\target\scala-2.11\coverage-report/cobertura.xml]
+[info] Written XML coverage report [D:\STUD\TestProjects\TDD\target\scala-2.11\scoverage-report/scoverage.xml]
+[info] Written HTML coverage report [D:\STUD\TestProjects\TDD\target\scala-2.11\scoverage-report/index.html]
+[info] Statement coverage.: 100,00%
+[info] Branch coverage....: 100,00%
+[info] Coverage reports completed
+[info] All done. Coverage was [100,00%]

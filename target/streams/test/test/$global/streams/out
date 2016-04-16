@@ -1,0 +1,8 @@
+[debug] Running TaskDef(tictactoe.GameSuite, org.scalatest.tools.Framework$$anon$1@3dc54249, false, [SuiteSelector])
+[info] Run completed in 349 milliseconds.
+[info] Total number of tests run: 10
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	tictactoe.GameSuite

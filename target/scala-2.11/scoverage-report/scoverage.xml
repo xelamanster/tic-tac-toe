@@ -1,0 +1,366 @@
+<scoverage 
+statement-count="99" statements-invoked="99" statement-rate="100,00" branch-rate="100,00" version="1.0" timestamp="1460815298245">
+    <packages>
+        <package name="tictactoe" statement-count="99" statements-invoked="99" statement-rate="100,00">
+            <classes>
+                <class 
+                name="TicTacToe" filename="tictactoe\TicTacToe.scala" statement-count="99" statements-invoked="99" statement-rate="100,00" branch-rate="100,00">
+                    <methods>
+                        <method 
+                        name="tictactoe/TicTacToe/topBottomCollector" statement-count="2" statements-invoked="2" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="topBottomCollector" start="1199" end="1218" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="topBottomCollector" start="1201" end="1217" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/bottomTopCollector" statement-count="5" statements-invoked="5" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="bottomTopCollector" start="1297" end="1313" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="bottomTopCollector" start="1276" end="1314" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="bottomTopCollector" start="1292" end="1293" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="bottomTopCollector" start="1278" end="1313" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="bottomTopCollector" start="1279" end="1284" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/&lt;none&gt;" statement-count="19" statements-invoked="19" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="334" end="339" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="407" end="412" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="360" end="365" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Object" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="182" end="190" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Object" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="238" end="241" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="354" end="380" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Object" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="223" end="226" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="374" end="379" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="400" end="405" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="327" end="332" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="321" end="347" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Object" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="154" end="165" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="309" end="418" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="341" end="346" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="387" end="413" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="367" end="372" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Object" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="208" end="211" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="393" end="398" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="&lt;none&gt;" start="288" end="293" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/setBox" statement-count="11" statements-invoked="11" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="741" end="771" line="34" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="924" end="949" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="858" end="868" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="889" end="899" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="936" end="948" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="766" end="771" line="34" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="773" end="821" line="34" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="834" end="868" line="35" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="834" end="868" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="876" end="899" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="setBox" start="773" end="821" line="34" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/play" statement-count="2" statements-invoked="2" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="play" start="672" end="677" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="play" start="696" end="701" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/verticalCollector" statement-count="1" statements-invoked="1" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="verticalCollector" start="1137" end="1141" line="45" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/checkAxis" statement-count="9" statements-invoked="9" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkAxis" start="543" end="613" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkAxis" start="505" end="505" line="25" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkAxis" start="522" end="523" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkAxis" start="509" end="541" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkAxis" start="505" end="505" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkAxis" start="639" end="651" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkAxis" start="621" end="633" line="27" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkAxis" start="527" end="541" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkAxis" start="543" end="613" line="25" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/collectResults" statement-count="26" statements-invoked="26" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1646" end="1664" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1469" end="1477" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1542" end="1575" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1430" end="1478" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1621" end="1621" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1514" end="1575" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1586" end="1620" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1413" end="1414" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1410" end="1410" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1430" end="1490" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1586" end="1620" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1557" end="1574" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1430" end="1435" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1514" end="1620" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1631" end="1665" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1532" end="1532" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1443" end="1443" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1443" end="1443" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1542" end="1575" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1631" end="1665" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1486" end="1489" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1601" end="1619" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1514" end="1665" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1421" end="1422" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1576" end="1576" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="collectResults" start="1404" end="1499" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/nextPlayer" statement-count="6" statements-invoked="6" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="nextPlayer" start="1963" end="1978" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="nextPlayer" start="1987" end="1988" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="nextPlayer" start="1977" end="1978" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="nextPlayer" start="1980" end="1981" line="64" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="nextPlayer" start="1980" end="1981" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="nextPlayer" start="1987" end="1988" line="64" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/checkWinner" statement-count="12" statements-invoked="12" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1876" end="1924" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1803" end="1818" line="60" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1754" end="1819" line="60" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1852" end="1870" line="61" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1908" end="1924" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1779" end="1794" line="60" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1774" end="1818" line="60" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1852" end="1870" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1828" end="1850" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1903" end="1904" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1798" end="1818" line="60" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkWinner" start="1876" end="1924" line="61" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="tictactoe/TicTacToe/checkResults" statement-count="6" statements-invoked="6" statement-rate="100,00" branch-rate="100,00">
+                            <statements>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkResults" start="1064" end="1077" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkResults" start="1025" end="1078" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkResults" start="1038" end="1038" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkResults" start="1073" end="1076" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkResults" start="1038" end="1038" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="tictactoe" class="TicTacToe" class-type="Class" top-level-class="TicTacToe" source="D:\STUD\TestProjects\TDD\src\main\scala\tictactoe\TicTacToe.scala" method="checkResults" start="1025" end="1030" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>
