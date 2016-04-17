@@ -1848,7 +1848,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2772ms :: artifacts dl 140ms
+[debug] :: resolution report :: resolve 3688ms :: artifacts dl 236ms
 [debug] 	report for default#tdd-build;0.1-SNAPSHOT compile produced in D:\STUD\TestProjects\TDD\project\target\resolution-cache\reports\default-tdd-build-compile.xml
 [debug] 	report for default#tdd-build;0.1-SNAPSHOT runtime produced in D:\STUD\TestProjects\TDD\project\target\resolution-cache\reports\default-tdd-build-runtime.xml
 [debug] 	report for default#tdd-build;0.1-SNAPSHOT test produced in D:\STUD\TestProjects\TDD\project\target\resolution-cache\reports\default-tdd-build-test.xml
@@ -1862,5 +1862,5 @@
 [debug] 	report for default#tdd-build;0.1-SNAPSHOT docs produced in D:\STUD\TestProjects\TDD\project\target\resolution-cache\reports\default-tdd-build-docs.xml
 [debug] 	report for default#tdd-build;0.1-SNAPSHOT pom produced in D:\STUD\TestProjects\TDD\project\target\resolution-cache\reports\default-tdd-build-pom.xml
 [debug] 	report for default#tdd-build;0.1-SNAPSHOT scala-tool produced in D:\STUD\TestProjects\TDD\project\target\resolution-cache\reports\default-tdd-build-scala-tool.xml
-[debug] 	resolve done (2772ms resolve - 140ms download)
+[debug] 	resolve done (3688ms resolve - 236ms download)
 [info] Done updating.
