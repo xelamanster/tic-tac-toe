@@ -4,7 +4,7 @@
 		module="tdd_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160416165318"
+		publication="20160417201736"
 	>
 		<description>
 		TDD
@@ -36,7 +36,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scoverage" name="scalac-scoverage-runtime_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
 		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
-		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.6" conf="test->default(compile)"/>
-		<dependency org="junit" name="junit" rev="4.12" conf="compile->default(compile)"/>
+		<dependency org="org.specs2" name="specs2-core_2.11" rev="3.7.2" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

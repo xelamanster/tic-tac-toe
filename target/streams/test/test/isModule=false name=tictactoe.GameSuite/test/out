@@ -1,11 +1,21 @@
-[info] GameSuite:
-[info] - whenXOutsideBoardThenRuntimeException
-[info] - whenYOutsideBoardThenRuntimeException
-[info] - whenOccupiedThenRuntimeException
-[info] - givenFirstTurnWhenNextPlayerThenX
-[info] - givenLastTurnWasXThenNextPlayerO
-[info] - whenPlayThenNoWinner
-[info] - whenPlayAndWholeHorizontalLineThenWinner
-[info] - whenPlayAndWholeVerticalLineThenWinner
-[info] - whenPlayAndWholeTopBottomDiagonalThenWinner
-[info] - whenPlayAndWholeBottomTopDiagonalThenWinner
+[info] GameSuite
+[info] 
+[info] When play game then should
+[info]   + throw exception when x outside board
+[info]   + throw exception when y outside board
+[info]   + throw exception when occupied
+[info] Check the next player should
+[info]   + return X in first turn
+[info]   + return Y if previous was X
+[info] Check game results should
+[info]   + return 'No Winner ' if play first time
+[info]   + return 'xWinner' if whole horizontal line
+[info]   + return 'xWinner' if whole vertical line
+[info]   + return 'xWinner' if whole top bottom diagonal
+[info]   + return 'xWinner' if whole bottom top diagonal
+[info] 
+[info] 
+[info] Total for specification GameSuite
+[info] Finished in 27 ms
+[info] 10 examples, 0 failure, 0 error
+[info] 

@@ -740,9 +740,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 3845ms :: artifacts dl 92ms
+[debug] :: resolution report :: resolve 1242ms :: artifacts dl 77ms
 [debug] 	report for default#tdd$sbt_2.11;1.0 default produced in D:\STUD\TestProjects\TDD\target\resolution-cache\reports\default-tdd$sbt_2.11-default.xml
-[debug] 	resolve done (3845ms resolve - 92ms download)
+[debug] 	resolve done (1242ms resolve - 77ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#tdd$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1092,6 +1092,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
 [debug] 	[NOT REQUIRED] org.scoverage#sbt-scoverage;1.3.5!sbt-scoverage.jar(src)
 [debug] 	[NOT REQUIRED] org.scoverage#scalac-scoverage-plugin_2.10;1.1.1!scalac-scoverage-plugin_2.10.jar(src)
-[debug] :: resolution report :: resolve 304ms :: artifacts dl 106ms
+[debug] :: resolution report :: resolve 203ms :: artifacts dl 56ms
 [debug] 	report for default#tdd$sources_2.11;1.0 default produced in D:\STUD\TestProjects\TDD\target\resolution-cache\reports\default-tdd$sources_2.11-default.xml
-[debug] 	resolve done (304ms resolve - 106ms download)
+[debug] 	resolve done (203ms resolve - 56ms download)

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
 <coverage 
-line-rate="1,00" lines-covered="99" lines-valid="99" branches-covered="8" branches-valid="8" branch-rate="1,00" complexity="0" version="1.0" timestamp="1460815298130">
+line-rate="1,00" lines-covered="99" lines-valid="99" branches-covered="8" branches-valid="8" branch-rate="1,00" complexity="0" version="1.0" timestamp="1460916512452">
     <sources>
         <source>--source</source>
         <source>D:/STUD/TestProjects/TDD/src/main/scala-2.11</source>

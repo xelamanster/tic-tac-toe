@@ -4,7 +4,7 @@
 		module="tdd$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160416164952"
+		publication="20160417174821"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
