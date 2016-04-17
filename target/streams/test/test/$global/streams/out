@@ -1,5 +1,0 @@
-[debug] Running TaskDef(tictactoe.GameSuite, specs2 Specification fingerprint, false, [SuiteSelector])
-[debug] Summary for specs2 not available.
-[info] Passed: Total 10, Failed 0, Errors 0, Passed 10
-[debug] Passed tests:
-[debug] 	tictactoe.GameSuite
