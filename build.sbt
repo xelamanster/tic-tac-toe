@@ -6,7 +6,8 @@ scalaVersion := "2.11.8"
 
 resolvers += Resolver.url("scoverage-bintray", url("https://dl.bintray.com/sksamuel/sbt-plugins/"))(Resolver.ivyStylePatterns)
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
-libraryDependencies += "junit" % "junit" % "4.12"
+libraryDependencies ++= Seq("org.specs2" %% "specs2-core" % "3.7.2" % "test")
+
+scalacOptions in Test ++= Seq("-Yrangepos")
 
 coverageEnabled := true
