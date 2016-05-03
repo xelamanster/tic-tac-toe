@@ -3,11 +3,12 @@ package tictactoe
 import org.specs2.mutable.Specification
 import org.specs2.specification.BeforeEach
 
-class GameSuite extends Specification with BeforeEach{
+class GameSuite extends Specification with BeforeEach {
   sequential
+
   var ticTacToe: TicTacToe = null
 
-  def before: Unit = {
+  override def before(): Unit = {
     ticTacToe = new TicTacToe
   }
 
@@ -38,7 +39,7 @@ class GameSuite extends Specification with BeforeEach{
   }
 
   "Check game results" should {
-    s"return '${TicTacToe.noWinner} ' if play first time" in {
+    s"return '${TicTacToe.noWinner}' if play first time" in {
       ticTacToe.play(1,1) mustEqual TicTacToe.noWinner
     }
 
