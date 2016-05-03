@@ -1,0 +1,4 @@
+vagrant up # start vagrant machine
+vagrant ssh # connect to virtual machine
+docker exec -it mongoDB bash # start mongoDB bash, call container by Name
+vagrant halt # shutdown vagrant
