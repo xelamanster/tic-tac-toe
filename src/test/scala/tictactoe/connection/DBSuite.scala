@@ -18,11 +18,11 @@ class DBSuite extends Specification with Mockito {
   mongoCollection.insertOne(org.mockito.Matchers.any[Document]) returns observable
   gameCollection.collection returns mongoCollection
 
-  "When instantiate collection" should {
-    s"return '${GameCollection.dbName}' in name" in {
+//  "When instantiate collection" should {
+//    s"return '${GameCollection.dbName}' in name" in {
 //      gameCollection.name
-    }
-  }
+//    }
+//  }
 
   "When save game" should {
     s"call insertOne one time" in {
