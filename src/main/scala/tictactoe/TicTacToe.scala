@@ -1,28 +1,30 @@
 package tictactoe
 
-import tictactoe.TicTacToe.empty
-import tictactoe.TicTacToe.x
-import tictactoe.TicTacToe.o
+import tictactoe.TicTacToe.EMPTY
+import tictactoe.TicTacToe.X
+import tictactoe.TicTacToe.O
 
 object TicTacToe {
-  val noWinner = "No Winner"
-  val winner = "Winner"
+  val NO_WINNER = "No Winner"
+  val WINNER = "Winner"
 
-  val empty = "-"
-  val x = "x"
-  val o = "o"
+  val EMPTY = "-"
+  val X = "x"
+  val O = "o"
 }
 
 class TicTacToe() {
-  var lastPlayer = empty
+  var lastPlayer = EMPTY
+  val size = 3
+
   val board = Array(
-    Array(empty, empty, empty),
-    Array(empty, empty, empty),
-    Array(empty, empty, empty)
+    Array(EMPTY, EMPTY, EMPTY),
+    Array(EMPTY, EMPTY, EMPTY),
+    Array(EMPTY, EMPTY, EMPTY)
   )
 
   def play(x: Int, y: Int): String = {
-    def checkAxis(coordinate: Int): Unit = if (coordinate < 1 || coordinate > 3) throw new RuntimeException(s"coordinate is outside board $coordinate")
+    def checkAxis(coordinate: Int) = if (coordinate < 1 || coordinate > 3) throw new RuntimeException(s"coordinate is outside board $coordinate")
 
     checkAxis(x)
     checkAxis(y)
@@ -30,36 +32,31 @@ class TicTacToe() {
     val arrayX = x - 1
     val arrayY = y - 1
 
-    def setBox: Unit = {
-      if (board(arrayY)(arrayX) != empty) throw new RuntimeException(s"$x $y is occupied")
+    def setBox {
+      if (board(arrayY)(arrayX) != EMPTY) throw new RuntimeException(s"$x $y is occupied")
       else board(arrayY)(arrayX) = nextPlayer
       lastPlayer = nextPlayer
     }
     setBox
-    checkWinner(checkResults)
-  }
 
-  def checkResults: Array[String] = {
-    val horizontalResults = board.collect{case a: Array[String] => a.reduce(_+_)}
-
-    def verticalCollector[A](a: Array[A], i: Int): A = a(i)
-    def topBottomCollector[A](a: Array[A], i: Int): A = a(board.indexOf(a))
-    def bottomTopCollector[A](a: Array[A], i: Int): A = a((board.size - 1) - board.indexOf(a))
-
-    def collectResults(pf: (Array[String], Int) => String): Array[String] = {
-      (for(i <- 0 until 3) yield board.collect{case a: Array[String] => pf(a, i)}.reduce(_+_)).toArray
+    def collectResults(chooseFunc: Int => String): String = {
+      (0 until size).map(chooseFunc(_)).reduce(_+_)
     }
 
-    horizontalResults ++
-      collectResults(verticalCollector) ++
-      collectResults(topBottomCollector) ++
-      collectResults(bottomTopCollector)
+    val results = Array(
+      collectResults(board(arrayY)(_)),
+      collectResults(board(_)(arrayX)),
+      collectResults(i => board(i)(i)),
+      collectResults(i => board(i)(size - 1 - i))
+    )
+
+    checkWinner(results)
   }
 
   def checkWinner(results: Array[String]): String = {
-    val winningResults = results.filter(f => f == TicTacToe.o * 3 || f == TicTacToe.x * 3)
-    if(winningResults.isEmpty) TicTacToe.noWinner else winningResults.head.charAt(0) + TicTacToe.winner
+    val winningResults = results.filter(f => f == TicTacToe.O * size || f == TicTacToe.X * size)
+    if(winningResults.isEmpty) TicTacToe.NO_WINNER else winningResults.head.charAt(0) + TicTacToe.WINNER
   }
 
-  def nextPlayer: String = if(lastPlayer == x) o else x
+  def nextPlayer: String = if(lastPlayer == X) O else X
 }

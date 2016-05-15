@@ -10,13 +10,16 @@ object GameCollection {
 }
 
 class GameCollection {
-  implicit def beanToDoc(bean: GameBean): Document = Document("_id" -> bean.turn, "x" -> bean.x, "y" -> bean.y, "player" -> bean.player)
   val printResult = (c: Completed) => println(c)
 
   private val db = MongoClient().getDatabase(dbName)
   val collection = db.getCollection(collectionName)
 
-  def save(game: GameBean): Unit = collection.insertOne(game).subscribe(printResult)
+  def save(bean: GameBean): Unit = {
+    val doc = Document("_id" -> bean.turn, "x" -> bean.x, "y" -> bean.y, "player" -> bean.player)
+    collection.insertOne(doc).subscribe(printResult)
+  }
+
   def drop(): Unit = collection.drop().subscribe(printResult)
 }
 
